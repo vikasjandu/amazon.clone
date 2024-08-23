@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box ;
+}
+.div{
+    text-align: center;
+    
+}
+ .navbar{
+    background-color: #242c2c;
+    color: #ffffff;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 124px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+}
+.logo{ background-image: url(logo.png);
+    background-size: cover;
+    
+    height: 50px;
+    width: 100%;
+  
+}
+.location{
+    color: #ffffff;
+    width: 15px;
+    height: 18px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/** box2 **/
+.navaddres{
+    margin: 5px 2px 5px 0px;
+    align-items: center;
+    
+}
+.addfirst{
+    color: #cccccc;
+    font-size: 12px;
+   
+}
+.addsec{
+color: #ffffff;
+font-size: 14px;
+margin-left: 3px;
+}
+.icon{
+    height: 18px;
+    width: 15px;
+    margin: 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    /* box3
+*/
+
+}
+.navsearch{
+    background-color: pink;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    border-radius: 4px;
+    width: 620px;
+    height: 40px;
+    border: none;    
+}
+.navsearch:hover{
+    border: 2px solid #febd68;
+}
+.searchoption{
+    text-align: center;
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.searchbar{
+font-size: 1rem;
+    
+    border: none;
+    width: 100%;
+    
+}
+.searchicon{
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 1.3rem;
+    width: 45px;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+/* box 4
+*/
+span{
+    font-size: 0.7rem;
+
+}
+.nevseciond{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 5
+*/
+.cart i{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* panel
+*/
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color:#222f3d;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+  
+}
+.paneldeals{
+    font-size: 9rem;
+    font-weight: 700;
+}
+/* hero
+*/
+.hero{
+    background-image: url(hero2_.jpg);
+    background-size: cover;
+    height: 300px;
+    }
+/*
+shop section
+*/
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#08443c ;
+}
+.box{
+    
+    height: 378px;
+    width: 23%;
+     background-color: white ;
+     padding: 20px 0px 15px;
+     margin-top: 1rem;
+}
+.boximg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontant{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcontant p{
+    color:#007185 ;
+    margin-top: 1.8rem;
+}
+
+/*
+footer
+*/
+.footer{
+    margin-top: 15px;
+}
+.footer1{
+    height: 49px;
+    width: 100%;
+    background-color: #37475a;
+    margin-top: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+.footer2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer2 p{
+    margin-top: 2.5rem;
+}
+.footer2 a{
+    display: block;
+    font-size: 0.8rem;
+    display: flex;
+    margin-top: 0.8rem;
+    color: #dddddd;
+}
+.footer3{
+    background-color: #222f3d;
+    height: 110px;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+}
+.footer4{
+    height: 80px;
+    background-color: #131a22;
+    color: #dddddd;
+    font-size: 0.7rem;
+    text-align: center;}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+     padding-top: 5px;
+}
